@@ -1,0 +1,123 @@
+/* ctrl+.  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+  background-color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 500;
+  color: #242859;
+  font-family: "Roboto", sans-serif;
+}
+
+.header_center {
+  display: flex;
+  gap: 20px;
+}
+
+.header_center a {
+  text-decoration: none;
+  color: rgb(23, 26, 31);
+  font-size: 15px;
+}
+
+.header_center a:hover {
+  color: blue;
+}
+
+.btn {
+  padding: 8px 20px;
+  background-color: #0b1ae9;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdowncard {
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.3s;
+  transform: translateY(0px);
+}
+.dropdowncard {
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.219);
+  display: grid;
+  left: 0;
+  width: 150px;
+  padding: 5px 20px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(30px);
+  gap: 10px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+main {
+  height: 100vh;
+}
+
+.main {
+  display: grid;
+}
+
+.card {
+}
+
+.icons_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+i {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 12px 25px;
+  border-radius: 30px;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.219);
+}
